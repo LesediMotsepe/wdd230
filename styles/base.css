@@ -7,12 +7,6 @@
   }
 
   
-  .cuprum {
-    font-family: "Cuprum", serif;
-    font-weight: 600;
-    font-style: normal;
-  }  
-  
 
 .roboto {
   font-family: "Roboto", serif;
@@ -31,7 +25,7 @@
     --heading-font: 'Anton', sans-serif;
     --paragrah-font: 'Roboto', sans-serif;
 
-    --nav-background-color: grey;
+    --nav-background-color: black;
     --nav-link-color: red;
     --nav-hover-link-color:green;
     --nav-hover-background-color: white;
@@ -51,7 +45,7 @@ main {
 	max-width: 800px;
 	margin: 40px auto;
 	padding: 20px;
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   }
   nav {
@@ -59,6 +53,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+	background-color: var(--nav-background-color);
   }
   
   nav ul {
@@ -68,7 +63,9 @@ main {
     display: flex;
     flex-wrap: wrap;
   }
-  
+  h1,h2{
+	font-family: var(--heading-font);
+  }
   nav li {
     margin-right: 20px;
   }
@@ -85,10 +82,10 @@ main {
   }
   
   .card {
-	background-color: var(--secondary-color);
+	background-color: var(--primary-color);
 	padding: 20px;
 	margin: 20px;
-	border: 1px solid --accent1-color;
+	border: 1px solid --nav-hover-background-color;
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   }
   
