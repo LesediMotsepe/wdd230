@@ -1,28 +1,6 @@
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
+
   
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #337ab7;
-  }
-  
-  /* Mobile View Styles 
+  /* Mobile View Styles */
   
   @media only screen and (max-width: 768px) {
     nav ul {
@@ -36,7 +14,7 @@ nav {
     main {
       margin: 20px auto;
     }
-  }*/
+  }
   
   /* Larger View Styles */
   

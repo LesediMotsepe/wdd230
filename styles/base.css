@@ -52,7 +52,30 @@ main {
 	margin: 40px auto;
 	padding: 20px;
 	background-color: var(--primary-color);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--nav-link-color);
   }
   
   .cards {
@@ -62,11 +85,11 @@ main {
   }
   
   .card {
-	background-color: #fff;
+	background-color: var(--secondary-color);
 	padding: 20px;
 	margin: 20px;
-	border: 1px solid #ddd;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: 1px solid --accent1-color;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   }
   
   /* Mobile View Styles */
