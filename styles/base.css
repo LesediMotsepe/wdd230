@@ -46,7 +46,7 @@ main {
 	margin: 40px auto;
 	padding: 20px;
 	background-color: blue;
-	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   nav {
     display: flex;
@@ -63,9 +63,7 @@ main {
     display: flex;
     flex-wrap: wrap;
   }
-  h1,h2{
-	font-family: var(--heading-font);
-  }
+ 
   nav li {
     margin-right: 20px;
   }
@@ -73,6 +71,16 @@ main {
   nav a {
     text-decoration: none;
     color: black;
+  }
+ nav .active{
+	background-color: blue;
+  }
+  nav a:hover{
+	background-color: skyblue;
+  }
+
+  h1,h2{
+	font-family: var(--heading-font);
   }
   
   .cards {
@@ -92,7 +100,7 @@ main {
   /* Mobile View Styles */
   
   @media only screen and (max-width: 768px) {
-	.cards {
+	.card {
 	  flex-direction: column;
 	}
   
@@ -104,7 +112,7 @@ main {
   /* Larger View Styles */
   
   @media only screen and (min-width: 769px) {
-	.cards {
+	.card {
 	  flex-direction: row;
 	}
   
