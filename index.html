@@ -3,49 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD230-Web Fronted Development | Lesedi Motsepe </title>
+    <title>WDD230-Web Frontend Development | Lesedi Motsepe </title>
     <meta name="Description" content="WDD 230 - Web Frontend Development,Lesedi Motsepe,course assignment portal">
     <meta name="author" content="Lesedi Motsepe">
-   <link rel="stylesheet" href="styles/base.css">
+   
    <link rel="stylesheet" href="styles/larger.css">
    <script src="scripts/getDate.js" defer></script>
 </head>
 <body>
-    <header>
-           
-        <div> <img src="images/Lesedi.jpg" alt="Lesedi Wdd230 Web Fronted Development" width="50" height="50">
-            <nav>
-            <ul>
-           <li class="active"><a href="index.html">Home</a></li> 
-           <li><a href="chamber.html">Chamber</a></li> 
-           <li><a href="chamber-siteiplan.html">Siteplan</a></li> 
-           <li><a href="form.html">Form</a></li> 
-            </ul>
-            </nav>
-       </div>
-    </header>
-    <main>
-     <h1>WDD230:Web Fronted Development</h1>
-     <section class="card">
-       <h2>Learning Activites</h2>
-       <ul>
-        <li><a href="">Image quality</a></li>
-        <li><a href="">Casscadding Style Sheets</a></li>
-        <li><a href="">JavaScript</a></li>
-        <li><a href="">Hypertext Markup Laguage</a></li>
-       </ul>
-     </section>
-     <section class="card">
+  <header>
+    <img src="images/Lesedi.jpg" alt="Lesedi" width="50" height="50">
+    <button id="dark-mode-button">Dark Mode</button>
+    <h1>WDD230: Web Frontend Development</h1>
+    <button id="hamburger-menu-button">&#9776;</button>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Chamber</a>
+    <a href="#">Siteplan</a>
+    <a href="#">Form</a>
+</nav>
+<div class="container">
+    <div class="box">
+        <h2>Learning Activities</h2>
+        <ul>
+            <li><a href="#">Image Quality</a></li>
+            <li><a href="#">Cascading Style Sheets</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Hypertext Markup Language</a></li>
+        </ul>
+    </div>
+    <div class="box">
         <h2>Information</h2>
-        <p>Weather</p>
-        <p>Number of Visits</p>
-     </section>
-    </main>
-    <footer>
-        <p id="copywrite"></p>
-      <p id="modified"></p> 
-
-    </footer>
-    
+        <ul>
+            <li>Weather</li>
+            <li>Number of Visits</li>
+        </ul>
+    </div>
+</div>
+<footer>
+  <p id="copywrite"></p>
+  <p id="modified"></p> 
+</footer>
 </body>
 </html>
