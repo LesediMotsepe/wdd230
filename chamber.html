@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD230-Web Fronted Development | Lesedi Motsepe </title>
-    <meta name="Description" content="WDD 230 - Web Frontend Development,Lesedi Motsepe,course assignment portal">
-    <meta name="author" content="Lesedi Motsepe">
-   <link rel="stylesheet" href="styles/base.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Chamber Page</title>
+  <meta name="Description" content="WDD 230 - Web Frontend Development,Lesedi Motsepe,The Chamber page">
+  <meta name="author" content="Lesedi Motsepe">
+ <link rel="stylesheet" href="styles/style.css">
+ <script src="scripts/getDate.js" defer></script>
+
 </head>
 <body>
-    <h1>COMING SOON</h1>
+ 
+  <header>
+    <nav>
+      <a href="#events">Upcoming Events</a>
+      <a href="#weather">Current Weather</a>
+      <a href="#spotlights">Member Spotlights</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <div class="hero">
+    <img src="images/Botanical Jozi Fountain.png" alt="Botanical Fountain">
+    <h1>Welcome to Our Community!</h1>
+    <p>Stay connected and updated with the latest events and news.</p>
+  </div>
+
+
+  <section id="events" class="events">
+    <h2>Upcoming Events</h2>
+    <div class="event-list">
+      <div class="card">
+        <h3>Thead Welcome Party</h3>
+        <p>Date: January 30, 2025</p>
+        <p>Time: 10:00 AM</p>
+      </div>
+      <div class="card">
+        <h3>Celebrate the Love</h3>
+        <p>Date: February 5, 2025</p>
+        <p>Time: 2:00 PM</p>
+      </div>
+      <div class="card">
+        <h3>Plants and Species</h3>
+        <p>Date: February 20, 2025</p>
+        <p>Time: 5:00 PM</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="weather" class="weather">
+    <h2>Current Weather</h2>
+    <div class="card">
+      <p>🌤️ Sunny</p>
+      <p>Temperature: 25°C</p>
+      <p>Location: Johannesburg</p>
+    </div>
+  </section>
+
+  
+  <section id="spotlights" class="spotlights">
+    <h2>Member Spotlights</h2>
+    <div class="card">
+      <h3>Solarnire</h3>
+      <p>Innovative solutions for modern problems.</p>
+    </div>
+    <div class="card">
+      <h3>Web Tech</h3>
+      <p>Leading the industry with cutting-edge technology.</p>
+    </div>
+    <div class="card">
+      <h3>SocieTy</h3>
+      <p>Empowering communities worldwide.</p>
+    </div>
+  </section>
+
+
+  <footer id="contact">
+    <p>&copy; 2025 | Lesedi Motsepe | Johannesburg, South Africa</p>
+    <p>Contact Us: <a href="mailto:info@botanical.com">info@botanical.com</a></p>
+    <p id="modified"></p></p>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,150 @@
+ /* Global Styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  /* Header Navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #f0a500;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 100px 20px 50px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+  }
+
+  .hero h1 {
+    font-size: 2.5em;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  /* Sections */
+  section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  section .card {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  /* Upcoming Events */
+  .events .event-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .event-list .card {
+    width: 250px;
+    margin: 15px;
+  }
+
+  /* Current Weather */
+  .weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .weather .card {
+    max-width: 400px;
+  }
+
+  /* Member Spotlights */
+  .spotlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .spotlights .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #f0a500;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+    }
+
+    section {
+      padding: 30px 15px;
+    }
+  }
