@@ -1,0 +1,69 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week1/learning-activity-1.html",
+            "title": "Learning Activity 1"
+          },
+          {
+            "url": "week1/learning-activity-2.html",
+            "title": "Learning Activity 2"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week2/learning-activity-1.html",
+            "title": "Learning Activity 1"
+          },
+          {
+            "url": "week2/learning-activity-2.html",
+            "title": "Learning Activity 2"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week3/learning-activity-1.html",
+            "title": "Learning Activity 1"
+          },
+          {
+            "url": "week3/learning-activity-2.html",
+            "title": "Learning Activity 2"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week4/learning-activity-1.html",
+            "title": "Learning Activity 1"
+          },
+          {
+            "url": "week4/learning-activity-2.html",
+            "title": "Learning Activity 2"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week5/learning-activity-1.html",
+            "title": "Learning Activity 1"
+          },
+          {
+            "url": "week5/learning-activity-2.html",
+            "title": "Learning Activity 2"
+          }
+        ]
+      }
+    ]
+  }
